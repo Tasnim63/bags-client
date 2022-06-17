@@ -1,0 +1,45 @@
+.count-banner {
+  background-image: url(../../../Images/banner2.webp);
+  min-height: 45vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.count-inside-banner {
+  background: rgba(0, 0, 0, 0.46);
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-inside-banner h1 {
+  color: rgb(232, 232, 232);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+.count-inside-banner a {
+  background-color: #37caff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
+}
+.inside-banner a:hover {
+  background-color: #00b3ff;
+}
+
+/* responsive for mobile phone */
+@media screen and (max-width: 640px) {
+  .count-banner {
+    min-height: 70vh;
+  }
+  .count-inside-banner {
+    height: 70vh;
+  }
+}

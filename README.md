@@ -1,7 +1,6 @@
 # BagsQ
 
-- To See My Project Live , Click on This [BagsQ](https://bagsq12.web.app).
-- Github Link of Server Site [BagsQ-Server](https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-emonmorol)
+LIVE_SITE: https://bagsq12.web.app
 
 ## Features Of This Site
 
@@ -32,4 +31,4 @@
 - HTML
 - CSS
 - jsonwebtoken
-"# bags-client" 
+  "# bags-client"

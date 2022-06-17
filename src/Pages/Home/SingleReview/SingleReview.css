@@ -1,0 +1,17 @@
+.review-card {
+  border: 1px solid rgba(156, 163, 175, 0.371);
+}
+.review-card .review-card-image {
+  border-radius: 1.5rem;
+  transition: all 0.4s ease;
+}
+.review-card .image {
+  border-radius: 1.5rem;
+  transition: all 0.4s ease;
+}
+.review-card:hover .review-card-image {
+  border-radius: 50%;
+}
+.review-card:hover .image {
+  border-radius: 50%;
+}

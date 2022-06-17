@@ -1,0 +1,18 @@
+.line-container {
+  margin: 10px 0px;
+}
+
+.line-container:hover .check-content {
+  background-color: rgb(56, 205, 255);
+  transition: background-color 0.4s;
+  color: white;
+}
+
+.check-content {
+  background-color: rgb(192, 239, 255);
+  color: rgb(56, 205, 255);
+  font-weight: 700;
+  padding: 3px 7px;
+  margin-right: 8px;
+  border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+}
